@@ -1,34 +1,48 @@
-# Challenge Project: Build a Website Design System
+# Website Design System (Codecademy Challenge)
 
-This repository contains my solution to the **Build a Website Design System** challenge project from Codecademy’s **Full-Stack Engineering** career path (Improved Styling with CSS section).
+A simple, reusable **website style guide** that documents my go-to **colors, fonts, and text styles**—built as part of Codecademy’s “Build a Website Design System” challenge project. :contentReference[oaicite:1]{index=1}
 
-## 📖 Overview
+## What’s Included
 
-This challenge project is designed to be open-ended. Instead of following a strict step-by-step tutorial, I was given a set of broad requirements to create a **basic design system for a website**.  
+### Color Palette
+A small palette of swatches for consistent branding across projects: :contentReference[oaicite:2]{index=2}
 
-The goal was to build a reference site containing reusable styles — including colors, fonts, and other common design elements — that I can use when creating future websites.
+| Name | Hex |
+|------|-----|
+| Deep Black | `#0A0D12` |
+| Graphite Grey | `#121826` |
+| Steel Grey | `#2A3446` |
+| Glacier Blue | `#3B82F6` |
+| Ice Blue | `#93C5FD` |
 
-## 🎯 Project Goals
+### Fonts
+Font samples for quick typography decisions: :contentReference[oaicite:3]{index=3}
+- Space Grotesk
+- Inter
+- JetBrains Mono
 
-- Create a reusable website design system.
-- Document a color palette with HEX/RGB values.
-- Define typography styles including font families, sizes, and weights.
-- Include reusable UI elements such as buttons and navigation styles.
-- Organize and present all styles in a clear, accessible format.
+### Text Styles
+Common text style references used on the page: :contentReference[oaicite:4]{index=4}
+- **H1**: `44px`, `font-weight: 700`
+- **H2**: `28px`, `font-weight: 600`
+- **Paragraph**: `16px`, `font-weight: 400`
 
-## 🛠️ Tech Stack
+## Tech Stack
+- HTML
+- CSS
 
-- **HTML5**
-- **CSS3**
+## Project Structure
+```txt
+.
+├── index.html
+├── styles.css
+└── README.md
+````
 
-## 🚀 Features
+## Why I Built This
 
-- Centralized color swatches for consistent branding.
-- Font showcase with headings, body text, and example weights.
-- Styled buttons and link variations.
-- A clean, minimal layout for easy reference.
+This project is meant to be a quick “grab-and-go” reference for future sites—so I don’t have to re-decide colors, fonts, and basic text sizing every time I start a new HTML/CSS project. ([GitHub][1])
 
-## 📌 About the Challenge
+## About the Challenge
 
-This project is part of Codecademy’s **Full-Stack Engineering** career path, within the **Improved Styling with CSS** section.  
-It is a capstone-style exercise focused on problem-solving, research, and self-direction — using online resources and prior lessons to complete the requirements.
+Codecademy challenge project: “Build a Website Design System” (open-ended requirements: build a style guide with colors, fonts, and repeating styles).
